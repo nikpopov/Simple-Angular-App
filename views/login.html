@@ -1,0 +1,19 @@
+<div class="log-in">
+	<h2>This is login PAGE</h2>
+	<div>
+		<form name="frmLogin" ng-submit="login()">
+			<div class="loginLine">
+				<label for="mail" class="label">E-mail</label>
+				<input type="text" name="email" ng-model="user.email">
+			</div>
+			<div class="loginLine">
+				<label for="pass" class="label">Password</label>
+				<input type="password" name="pass" ng-model="user.password">
+			</div>
+			<div class="loginButtons">
+				<input type="reset" name="resetLogin">
+				<input type="submit" name="dataSend">
+			</div>
+		</form>
+	</div>
+</div>

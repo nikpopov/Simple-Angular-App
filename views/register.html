@@ -1,0 +1,27 @@
+<div class="log-in">
+	<h2>
+		This is new user registration page.
+	</h2>
+	<form name="frmRregister" ng-submit="register(user)">
+		<div class="loginLine">
+			<label for="firstName" class="label">First Name</label>
+			<input type="text" name="firstname" ng-model="user.firstname" required>
+		</div>
+		<div class="loginLine">
+			<label for="lastName" class="label">Last Name</label>
+			<input type="text" name="lastName" ng-model="user.lastname" required>
+		</div>
+		<div class="loginLine">
+			<label for="email" class="label">User email</label>
+			<input type="text" name="email" ng-model="user.email" required>
+		</div>
+		<div class="loginLine">
+			<label for="password" class="label">Password</label>
+			<input type="password" name="password" ng-model="user.password" required>
+		</div>
+		<div class="loginButtons">
+			<input type="reset" name="resetRegister">
+			<input type="submit" name="sendRegister">
+		</div>
+	</form>
+</div>

@@ -1,0 +1,10 @@
+<div class="news">
+	<div class="news_block_head" ng-repeat="news in newses">
+		<img ng-src="{{news.content_img}}" class="news_thumb">
+		<a href="" ng-click="read_news(news)">
+			<h2 class="news_title">{{news.content_title}}</h2>
+		</a>
+		<div class="news_decription">{{news.content_description}}</div>
+	</div>
+	
+</div>
